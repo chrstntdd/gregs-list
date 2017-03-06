@@ -1,6 +1,7 @@
 header nav {
     height: 40px;
-    background-color: lightgrey;
+    background-color: #efefee;
+    border-bottom: 1px solid lightgray;
     width: 100%;
     position: fixed;
 }
@@ -17,7 +18,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 li a {
@@ -30,9 +31,13 @@ li a {
     color: black;
     display: inline-block;
     vertical-align: middle;
-    font-size: 22px;
-    margin-top: 8px;
+    font-size: 18px;
+    margin-top: 10px;
     margin-left: 10px;
+}
+
+.logo:hover{
+    text-decoration: underline;
 }
 
 form {
@@ -44,14 +49,18 @@ form label {
 }
 
 form input {
-    border: 1px solid black;
+    border: 1px solid #DFE0DE;
     border-radius: 3px;
-    padding: 3px;
-    width: 20vw;
+    padding: 5px;
+    width: 400px;
+}
+
+.search{
+    display: inline;
 }
 
 .mag {
-    border: 1px solid black;
+    border: 1px solid #DFE0DE;
     display: inline-block;
     height: 25px;
     border-radius: 3px;
@@ -63,15 +72,26 @@ form input {
 }
 
 section {
-    padding-top: 100px;
+    padding-top: 45px;
 }
 
 section ul {
     list-style: none;
+    padding-left: 0px;
 }
 
 section ul li {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #989898;
+}
+
+.post{
+    font-weight: 600;
+    color: blue;
+}
+
+.post:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -80,16 +100,27 @@ main {
 
 .pagination {
     display: inline-block;
-    margin-top: 25px;
-    padding: 5px;
-    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #DFE0DE;
     border-radius: 3px;
 }
 
+.pagination a {
+    text-decoration: none;
+    color: black;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
 .pagination span {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding: 5px; /*ensure padding matches parent*/
+    border-left: 1px solid #DFE0DE;
+    border-right: 1px solid #DFE0DE;
+    padding: 10px; /*ensure padding matches parent*/
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .prev,
