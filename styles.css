@@ -1,0 +1,110 @@
+header nav {
+    height: 40px;
+    background-color: lightgrey;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+li a {
+    color: purple;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+form {
+    padding-top: 100px
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    width: 20vw;
+}
+
+.mag {
+    border: 1px solid black;
+    display: inline-block;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.mag img {
+    height: 25px;
+    border-radius: 3px;
+}
+
+section {
+    padding-top: 100px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 20px;
+}
+
+main {
+    margin-left: 75px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.pagination span {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px; /*ensure padding matches parent*/
+}
+
+.prev,
+.next {
+    padding: 5px;
+}
+
+.prev::before {
+    content: '< ';
+}
+
+.next::after {
+    content: ' >';
+}
+
+ul li .post {
+    padding: 0 12px 0 12px;
+}
