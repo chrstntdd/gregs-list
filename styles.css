@@ -58,19 +58,13 @@ form input {
 .search {
     display: inline;
     position: relative;
-    top: 9px;
-}
-
-.mag {
-    border: 1px solid #DFE0DE;
-    display: inline-block;
-    height: 28px;
-    border-radius: 3px;
+    top: 10px;
 }
 
 .mag img {
     height: 28px;
     border-radius: 3px;
+    border: 1px solid #DFE0DE;
 }
 
 section {
