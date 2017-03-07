@@ -36,12 +36,12 @@ li a {
     margin-left: 10px;
 }
 
-.logo:hover{
+.logo:hover {
     text-decoration: underline;
 }
 
 form {
-    padding-top: 100px
+    padding-top: 90px
 }
 
 form label {
@@ -55,19 +55,21 @@ form input {
     width: 400px;
 }
 
-.search{
+.search {
     display: inline;
+    position: relative;
+    top: 9px;
 }
 
 .mag {
     border: 1px solid #DFE0DE;
     display: inline-block;
-    height: 25px;
+    height: 28px;
     border-radius: 3px;
 }
 
 .mag img {
-    height: 25px;
+    height: 28px;
     border-radius: 3px;
 }
 
@@ -85,7 +87,7 @@ section ul li {
     color: #989898;
 }
 
-.post{
+.post {
     font-weight: 600;
     color: blue;
 }
@@ -118,7 +120,8 @@ main {
 .pagination span {
     border-left: 1px solid #DFE0DE;
     border-right: 1px solid #DFE0DE;
-    padding: 10px; /*ensure padding matches parent*/
+    padding: 10px;
+    /*ensure padding matches parent*/
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -138,4 +141,10 @@ main {
 
 ul li .post {
     padding: 0 12px 0 12px;
+}
+
+h1,
+p,
+a {
+    font-family: sans-serif;
 }
